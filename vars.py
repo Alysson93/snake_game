@@ -10,5 +10,5 @@ white = (255, 255, 255)
 red = (255, 0, 0)
 green = (0, 255, 0)
 
-square_size = 10.0 # px
+square_size = 10 # px
 velocity = 15 #

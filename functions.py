@@ -4,8 +4,8 @@ import random
 from vars import width, height, square_size, screen, green, white, red
 
 def generate_food():
-    food_x = round(random.randrange(0, width - square_size) / square_size) * square_size
-    food_y = round(random.randrange(0, height - square_size) / square_size) * square_size
+    food_x = round(random.randrange(0, width - square_size) / float(square_size)) * float(square_size)
+    food_y = round(random.randrange(0, height - square_size) / float(square_size)) * float(square_size)
     return food_x, food_y
 
 
